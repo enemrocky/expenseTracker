@@ -7,7 +7,7 @@ const Dummy__expenses = [
 		id: "e1",
 		title: "Toilet Paper",
 		amount: 94.12,
-		date: new Date(2020, 7, 14),
+		date: new Date(2022, 7, 14),
 	},
 	{
 		id: "e2",
@@ -19,7 +19,7 @@ const Dummy__expenses = [
 		id: "e3",
 		title: "Car Insurance",
 		amount: 294.67,
-		date: new Date(2021, 2, 28),
+		date: new Date(2023, 2, 28),
 	},
 	{
 		id: "e4",
@@ -32,6 +32,7 @@ const Dummy__expenses = [
 function App() {
 	const [expenses, setExpenses] = useState(Dummy__expenses);
 	const saveExpenseHandler = (expense) => {
+		console.log(expense);
 		setExpenses((prevState) => [expense, ...prevState]);
 	};
 
