@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Expenses from "./components/expenses/expenses";
 import NewExpense from "./components/newExpense/newExpense";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Dummy__expenses = [
 	{

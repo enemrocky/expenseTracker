@@ -24,3 +24,8 @@
 .new-expense__actions {
 	text-align: right;
 }
+
+.add-expense-btn {
+	display: block;
+	width: 100%;
+}
