@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import "./expenseForm.css";
 
 const NewExpenseForm = (props) => {
 	const [newTitle, setNewTitle] = useState("");
@@ -78,7 +79,9 @@ const NewExpenseForm = (props) => {
 					/>
 				</div>
 				<div className="new-expense__actions">
-					<button type="submit">Add Expense</button>
+					<button type="submit" className="add-expense-btn">
+						Add Expense
+					</button>
 				</div>
 			</div>
 		</form>

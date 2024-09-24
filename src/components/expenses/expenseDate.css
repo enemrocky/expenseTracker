@@ -24,3 +24,11 @@
 	font-size: 1.5rem;
 	font-weight: bold;
 }
+
+@media (max-width: 648px) {
+	.expense-date {
+		padding: 0.3rem 1rem;
+		width: fit-content;
+		height: fit-content;
+	}
+}

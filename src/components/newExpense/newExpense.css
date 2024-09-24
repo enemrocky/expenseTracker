@@ -2,7 +2,7 @@
 	background-color: #92b5ee;
 	padding: 1rem;
 	margin: 2rem auto;
-	width: 50rem;
+	width: 50%;
 	max-width: 95%;
 	border-radius: 12px;
 	text-align: center;
@@ -50,4 +50,10 @@
 .new-expense button:active {
 	background-color: #051ba8;
 	border-color: #051ba8;
+}
+
+@media (max-width: 648px) {
+	.new-expense {
+		width: 90%;
+	}
 }

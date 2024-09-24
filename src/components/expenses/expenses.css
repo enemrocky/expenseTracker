@@ -1,13 +1,20 @@
-.container {
+.container-1 {
 	padding: 1rem;
 	margin: 0rem auto;
-	width: 50rem;
-	max-width: 95%;
-	background-color: #1c1b1b;
+	width: 50%;
+	background-color: #101010;
 	border-radius: 12px;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 p {
 	color: #fff;
+}
+
+@media (max-width: 648px) {
+	.container-1 {
+		width: 90%;
+		padding: 0.5rem;
+		margin-bottom: 3rem;
+	}
 }
